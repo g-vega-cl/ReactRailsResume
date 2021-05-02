@@ -16,3 +16,12 @@
 4. rails db:migrate
 5. Now comes configuration. Depends on each project
 6. for example... project.rb add has_many :feedbacks.
+
+## For the API you need to serialize and tell the db what to expose
+7. eg. rails g serializer Feedback publisher rating comment project_id
+  - note that project_id was added when we migrated the db (check schema.rb)
+
+8. Configure routes. in routes.rb
+9. Create pages controller.
+  - And ProjectsController and FeedbacksController 
+  - configure
