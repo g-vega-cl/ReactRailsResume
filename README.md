@@ -36,5 +36,8 @@ Ugly notes, just for me to memember the flow.
 
 ## For deployment.
 1. Created main.yml (Not sure if it matters. But It's a start for github actions)
+  - Note, in Gemfile, passed 'sqlite3' to only be used in :development, :test. And added postgres, so heroku uses postgres in deploy. (Then do bundle install)
+    - Magic of rails bby. It works with any db!
 2. Went to heroku and literally did connect to github -> Automatic deployment, now it deploys every time something is pused to main. (CD!)
 3. Shoud now create a CI flow to test things before I push to main
+
