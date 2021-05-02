@@ -1,8 +1,8 @@
-name: On push to master, deploy to heroku
+name: On push to main, deploy to heroku
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
