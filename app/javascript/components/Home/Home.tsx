@@ -9,6 +9,7 @@ const Home = () => {
     .catch(resp => console.log("error Home fetch ", resp));
   },[projects.length]);
 
+  console.log("the projs ", projects);
   return (
     <div>
       my Home

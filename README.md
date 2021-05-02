@@ -40,4 +40,4 @@ Ugly notes, just for me to memember the flow.
     - Magic of rails bby. It works with any db!
 2. Went to heroku and literally did connect to github -> Automatic deployment, now it deploys every time something is pused to main. (CD!)
 3. Shoud now create a CI flow to test things before I push to main
-
+4. remember to do heroku run rake db:migrate -a rails-react-resume
