@@ -1,6 +1,7 @@
 # ReactRailsResume
  A resume build with react and rails. Will have CI/DI and deployment
 
+Ugly notes, just for me to memember the flow.
 1. rails new resume --webpack=react -T
 2. rails db:create
 3. Create models for feedback:
@@ -25,3 +26,9 @@
 9. Create pages controller.
   - And ProjectsController and FeedbacksController 
   - configure
+
+## For frontend react.
+1. add javascript_pag_tag to your views.
+2. create views/pages/index.html.erb
+3. Don't forget to add - .tsx to extensions in webpacker.yml
+4. Now create components and build the react structure
