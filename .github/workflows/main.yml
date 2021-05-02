@@ -1,8 +1,8 @@
-name: On push to master, deploy
+name: On push to main, deploy
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
