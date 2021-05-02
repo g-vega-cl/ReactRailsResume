@@ -32,3 +32,5 @@ Ugly notes, just for me to memember the flow.
 2. create views/pages/index.html.erb
 3. Don't forget to add - .tsx to extensions in webpacker.yml
 4. Now create components and build the react structure
+
+## For CI/DI
