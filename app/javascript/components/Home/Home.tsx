@@ -5,8 +5,11 @@ const Home = () => {
 
   useEffect(()=>{
     axios.get('/api/v1/projects.json')
-    .then( resp => setProjects(resp.data.data))
-    .catch(resp => console.log("error Home fetch ", resp));
+    .then( resp => {
+      console.log("successful response ", resp)
+      setProjects(resp.data.data)
+    })
+    .catch(resp => console.log("error Home.tsx fetch ", resp));
   },[projects.length]);
 
   console.log("the projs ", projects);
