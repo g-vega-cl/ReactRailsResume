@@ -43,3 +43,7 @@ Ugly notes, just for me to memember the flow.
 4. remember to do:
    heroku run rake db:migrate -a rails-react-resume
    heroku run rake db:seed -a rails-react-resume
+
+
+## TESTING
+- Run yarn jest

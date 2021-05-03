@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
+import {Grid} from '@material-ui/core'
 
 
 const Home = () => {
@@ -12,10 +13,13 @@ const Home = () => {
   },[projects.length]);
 
   return (
-    <div style={{backgroundColor:'red'}}>
-      my Home
-      <div>my Home 2</div>
-    </div>
+    <Grid
+    container
+    style={{backgroundColor:'red'}}>
+      <Grid item xs = {8} style={{padding:'10px 30px 10px 30px'}}>
+        <h1> César Leonardo Vega Galván</h1>
+      </Grid>
+    </Grid>
   );
 };
 
